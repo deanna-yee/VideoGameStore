@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_label">Email:</string>
+    <string name="email">email</string>
+    <string name="password_label">Password:</string>
+    <string name="password">password</string>
+    <string name="create_login">Create Login</string>
+    <string name="login">Login</string>
+    <string name="title">VIDEO GAMES STORE</string>
+    <string name="welcome_to">Welcome To The</string>
+    <string name="the">THE</string>
+    <string name="video_game_store">VIDEO GAME STORE</string>
+    <string name="go_to_store">GO TO STORE</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="list_of_video_games">LIST OF VIDEO GAMES</string>
+    <string name="instruction_text_1">Click the button at the bottom of the
+        screen to go to your list of video games. To add a new video game to the
+        list press the add button(plus symbol).</string>
+    <string name="instruction_text_2">Enter the detail of the video game onto
+        screen. Press the save button to save the information and go back to the video game list.
+        Press the cancel button to go back to the video game list without saving the information. </string>
+    <string name="add_button">add button</string>
+</resources>
