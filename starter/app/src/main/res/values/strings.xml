@@ -30,4 +30,12 @@
         screen. Press the save button to save the information and go back to the video game list.
         Press the cancel button to go back to the video game list without saving the information. </string>
     <string name="add_button">add button</string>
+    <string name="logout">LOGOUT</string>
+    <string name="name">Name:</string>
+    <string name="video_game_name">video game name</string>
+    <string name="company">Company:</string>
+    <string name="company_name">Company Name</string>
+    <string name="description">Description:</string>
+    <string name="description_of_video_game">Description of video game</string>
+    <string name="save">SAVE</string>
 </resources>

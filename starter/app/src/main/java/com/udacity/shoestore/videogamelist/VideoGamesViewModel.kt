@@ -1,5 +1,6 @@
 package com.udacity.shoestore.videogamelist
 
+import androidx.databinding.Observable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -11,11 +12,18 @@ class VideoGamesViewModel : ViewModel() {
     val videoGamesList : LiveData<MutableList<VideoGame>>
     get() = _videoGamesList
 
-    fun addVideoGame(videoGame : VideoGame?){
+    val nameText = MutableLiveData<String>()
+    val companyText = MutableLiveData<String>()
+    val descriptionText = MutableLiveData<String>()
+
+
+    fun addVideoGame(){
         val tempVideoGamesList = _videoGamesList.value ?: mutableListOf()
-        videoGame?.let {    videoGame:VideoGame ->
-            tempVideoGamesList.add(videoGame)
-        }
+        //val videoGame = VideoGame()
+        //tempVideoGamesList.add(videoGame)
+
         _videoGamesList.value = tempVideoGamesList
     }
+
+
 }

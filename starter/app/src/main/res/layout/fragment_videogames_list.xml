@@ -5,6 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".videogamelist.VideoGamesListFragment"
     >
+    <data>
+        <variable
+            name="videoGameViewModel"
+            type="com.udacity.shoestore.videogamelist.VideoGamesViewModel" />
+    </data>
+    <!--Constraint Layout because I want the floating button over
+    the scroll view-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -29,7 +36,7 @@
         </ScrollView>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton"
+            android:id="@+id/addButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/margin"
